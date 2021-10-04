@@ -4,7 +4,7 @@ My project's live link: [LINEAR](https://e-learning-linear.netlify.app/).
 
 ## Project implementation Short description
 
-### Heade & Footer
+### Header & Footer
 
 First I make header and footer components .In header components I have kept NavLink .Those components are shown in every component.
 
