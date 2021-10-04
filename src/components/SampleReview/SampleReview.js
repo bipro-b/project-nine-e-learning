@@ -27,7 +27,7 @@ const SampleReview = () => {
                                             <Card.Title>Course:{review.course}
                                             </Card.Title>
                                             <p>Category: {review.category}</p>
-                                            <p>Price:{review.price}</p>
+                                            <p>Price:{review.price} ৳</p>
                                             <Link to="/enroll"> <button style={{ alignItems: 'center', marginLeft: "40px" }} className="btn btn-primary ms-40px">Enroll Now</button></Link>
                                         </Card.Body>
 

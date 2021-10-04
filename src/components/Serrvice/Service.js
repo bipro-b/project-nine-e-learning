@@ -15,7 +15,7 @@ const Service = (props) => {
                         <Card.Title>Course:{course}
                         </Card.Title>
                         <p>Category: {category}</p>
-                        <p>Price:{price}</p>
+                        <p>Price:{price} ৳</p>
                         <Link to="/enroll"> <button style={{ alignItems: 'center', marginLeft: "40px" }} className="btn btn-primary ms-40px">Enroll Now</button></Link>
                     </Card.Body>
 

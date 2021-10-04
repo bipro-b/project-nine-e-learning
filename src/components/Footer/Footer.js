@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="col-md-4">
                     <h2>LINEAR Learing Point </h2>
                     <p>Build your career styig with us.</p>
-                    BANI©. ALl rights reseves.
+                    LINIEAR©. ALl rights reseves.
                 </div>
                 <div className="col-md-4">
                     <h2>Courses Catagory</h2>

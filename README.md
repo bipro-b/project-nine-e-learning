@@ -8,9 +8,9 @@ My project's live link: [LINEAR](https://e-learning-linear.netlify.app/).
 
 First I make header and footer components .In header components I have kept NavLink .Those components are shown in every component.
 
-### Router & rest components 
+### Router ,react bootstrap & rest components 
 
-Installing router component , I make others components and fixed those path in router.
+Installing react router,react bootrap component , I make others components and fixed those path in router.
 
 ### fake data and Images
 
