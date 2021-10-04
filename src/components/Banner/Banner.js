@@ -16,7 +16,7 @@ const Banner = () => {
                     </Link>
                 </div>
                 <div className="col-md-6 second-part">
-                    <img src={banner} alt="" />
+                    <img className="img img-fluid" src={banner} alt="" />
                 </div>
             </div>
         </div>
