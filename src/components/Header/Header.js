@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import "./Header.css"
+import logo from '../../images/logo.png';
 
 const Header = () => {
     const activeStyle = {
@@ -10,9 +11,12 @@ const Header = () => {
     }
     return (
         <div className="header w-100">
-            <Navbar bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand='lg' bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand className="mx-auto">LINEAR</Navbar.Brand>
+                    <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+                    <Navbar.Collapse id='responsive-navbar-nav' />
+                    <img style={{ width: "35px" }} className="position-absolute top-0 start-5" src={logo} alt="" />
+                    <Navbar.Brand className="position-absolute top-0 start-50">LINEAR</Navbar.Brand>
                     <Nav className="me-auto">
                         <NavLink to="/home" activeStyle={activeStyle}>Home</NavLink>
                         <NavLink to="/about" activeStyle={activeStyle}>About Us</NavLink>

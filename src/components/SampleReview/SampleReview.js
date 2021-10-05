@@ -15,8 +15,8 @@ const SampleReview = () => {
     // This UI samnple is implemented to show in home page as sample review in different category
     return (
         <div>
-            <Container className="my-5">
-                <Row xs={1} md={4} className="g-4">
+            <Container className="my-5 container-fluid">
+                <Row xs={1} sm={2} md={3} lg={4} className="g-4">
                     {
                         reviews.map(review => (
                             <Container>
@@ -28,7 +28,10 @@ const SampleReview = () => {
                                             </Card.Title>
                                             <p>Category: {review.category}</p>
                                             <p>Price:{review.price} ৳</p>
-                                            <Link to="/enroll"> <button style={{ alignItems: 'center', marginLeft: "40px" }} className="btn btn-primary ms-40px">Enroll Now</button></Link>
+                                            <div className="mx-auto">
+                                                <Link to="/enroll"> <button style={{ alignItems: 'center' }} className="btn btn-primary ms-40px">Enroll Now</button></Link>
+                                            </div>
+
                                         </Card.Body>
 
                                     </Card>

@@ -24,7 +24,7 @@ const About = () => {
                         The members of our group are much dedicated . They are alwayas ready for support for leanrer. According to shedule they join for live session with helpful mind.
                     </p>
                 </div>
-                <Row xs={1} md={4} className="g-5">
+                <Row xs={1} sm={2} md={3} lg={4} className="g-5">
                     {
                         about.map(ab => (
 
