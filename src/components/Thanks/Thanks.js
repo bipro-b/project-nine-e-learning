@@ -7,7 +7,7 @@ const Thanks = () => {
     return (
         <div>
             <Header></Header>
-            <img src={thank} alt="" />
+            <img className="img img-fluid" src={thank} alt="" />
             <Footer></Footer>
         </div>
     );

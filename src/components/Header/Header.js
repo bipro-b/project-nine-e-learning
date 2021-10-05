@@ -16,7 +16,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                     <Navbar.Collapse id='responsive-navbar-nav' />
                     <img style={{ width: "35px" }} className="position-absolute top-0 start-5" src={logo} alt="" />
-                    <Navbar.Brand className="position-absolute top-0 start-50">LINEAR</Navbar.Brand>
+                    <Navbar.Brand className="position-absolute top-0 start-50 text-info ">LINEAR</Navbar.Brand>
                     <Nav className="me-auto">
                         <NavLink to="/home" activeStyle={activeStyle}>Home</NavLink>
                         <NavLink to="/about" activeStyle={activeStyle}>About Us</NavLink>

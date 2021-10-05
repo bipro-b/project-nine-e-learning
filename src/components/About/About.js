@@ -15,22 +15,22 @@ const About = () => {
 
     // Now render it to show in UI
     return (
-        <div>
+        <div >
 
             <Header></Header>
             <Container className="my-5">
                 <div className="mx-auto d-flex justify-content-center">
-                    <p style={{ width: "500px", color: "white", backgroundColor: "grey", borderRadius: "7px", textAlign: "left", padding: "10px" }}>Group members of our teams are Given with their activities.
-                        The members of our group are much dedicated . They are alwayas ready for support for leanrer. According to shedule they join for live session with helpful mind.
+                    <p style={{ width: "500px", color: "white", backgroundColor: "grey", borderRadius: "7px", textAlign: "left", padding: "10px" }}>Group members list of our teams are given with their activities.The members of our group are much dedicated . They are alwayas ready for support for leanrer. According to shedule they join for live session with helpful mind.
                     </p>
                 </div>
+
                 <Row xs={1} sm={2} md={3} lg={4} className="g-5">
                     {
                         about.map(ab => (
 
                             <Container >
 
-                                <Col>
+                                <Col className="ms-5">
                                     <Card className="card h-100 w-75 about">
                                         <Card.Img style={{ borderRadius: "50%", padding: "6px" }} variant="top" src={ab.pic} />
                                         <Card.Body>
@@ -47,6 +47,7 @@ const About = () => {
                     }
 
                 </Row>
+
             </Container>
             <Footer></Footer>
         </div>

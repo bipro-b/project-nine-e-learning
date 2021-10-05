@@ -8,7 +8,7 @@ const Service = (props) => {
     // Showing to UI service components 
     return (
         <Container>
-            <Col>
+            <Col className="ms-5">
                 <Card className="card h-100 w-75">
                     <Card.Img style={{ height: '150px' }} variant="top" src={thumb} />
                     <Card.Body>

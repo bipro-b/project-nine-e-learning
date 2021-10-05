@@ -18,9 +18,11 @@ const Services = () => {
             <Header></Header>
             <Container className="my-5">
                 <Row xs={1} sm={2} md={3} lg={4} className="g-4">
+
                     {
                         services.map(service => <Service key={service.key} service={service}></Service>)
                     }
+
                 </Row>
             </Container>
 
