@@ -10,8 +10,9 @@ const Enroll = () => {
     return (
         <div>
             <Header></Header>
-            <Form className="w-25 mx-auto mt-5">
-                <h3>Fill the form to enroll your chosen course.</h3>
+            <h3>Fill the form to enroll your chosen course.</h3>
+            <Form className="w-50 mx-auto mt-5">
+
                 <Form.Group className="mb-5" controlId="formBasicEmail">
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type="text" placeholder="Enter fist name" />
